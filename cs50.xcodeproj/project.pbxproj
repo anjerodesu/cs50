@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17F01E571C327120006272F5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 17F01E561C327120006272F5 /* main.c */; };
+		17F01E671C32797A006272F5 /* cs50.c in Sources */ = {isa = PBXBuildFile; fileRef = 17F01E651C32797A006272F5 /* cs50.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,45 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		175CFCEE1C6F97290013C20B /* greedy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = greedy.c; sourceTree = "<group>"; };
+		175CFCEF1C6F97290013C20B /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hello.c; sourceTree = "<group>"; };
+		175CFCF01C6F97290013C20B /* mario.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mario.c; sourceTree = "<group>"; };
+		175CFCF11C6F97290013C20B /* water.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = water.c; sourceTree = "<group>"; };
+		17C3C9CB1C816D35003491ED /* functions-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "functions-0.c"; path = "Week 2/functions-0.c"; sourceTree = "<group>"; };
+		17C3C9CD1C816F60003491ED /* functions-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "functions-1.c"; path = "Week 2/functions-1.c"; sourceTree = "<group>"; };
+		17C3C9CF1C817094003491ED /* floats-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "floats-0.c"; path = "Week 2/floats-0.c"; sourceTree = "<group>"; };
+		17C3C9D11C817168003491ED /* floats-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "floats-1.c"; path = "Week 2/floats-1.c"; sourceTree = "<group>"; };
+		17C3C9D31C817C24003491ED /* floats-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "floats-2.c"; path = "Week 2/floats-2.c"; sourceTree = "<group>"; };
+		17C3C9D51C8180FE003491ED /* string-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "string-0.c"; path = "Week 2/string-0.c"; sourceTree = "<group>"; };
+		17C3C9D71C81817B003491ED /* string-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "string-1.c"; path = "Week 2/string-1.c"; sourceTree = "<group>"; };
+		17C3C9D91C8181D7003491ED /* string-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "string-2.c"; path = "Week 2/string-2.c"; sourceTree = "<group>"; };
+		17C3C9DB1C818279003491ED /* ascii-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "ascii-0.c"; path = "Week 2/ascii-0.c"; sourceTree = "<group>"; };
+		17C3C9DD1C818448003491ED /* ascii-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "ascii-1.c"; path = "Week 2/ascii-1.c"; sourceTree = "<group>"; };
+		17C3C9DF1C8184DD003491ED /* capitalize-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "capitalize-0.c"; path = "Week 2/capitalize-0.c"; sourceTree = "<group>"; };
+		17C3C9E11C8185C1003491ED /* capitalize-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "capitalize-1.c"; path = "Week 2/capitalize-1.c"; sourceTree = "<group>"; };
+		17C3C9E31C81865F003491ED /* capitalize-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "capitalize-2.c"; path = "Week 2/capitalize-2.c"; sourceTree = "<group>"; };
+		17C3C9E51C8189CD003491ED /* ages.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ages.c; path = "Week 2/ages.c"; sourceTree = "<group>"; };
+		17C3C9E71C818B49003491ED /* argv-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "argv-0.c"; path = "Week 2/argv-0.c"; sourceTree = "<group>"; };
+		17C3C9E91C818DF8003491ED /* argv-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "argv-1.c"; path = "Week 2/argv-1.c"; sourceTree = "<group>"; };
+		17C3C9EB1C819069003491ED /* argv-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "argv-2.c"; path = "Week 2/argv-2.c"; sourceTree = "<group>"; };
+		17C3C9EE1C81AF79003491ED /* initials.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = initials.c; path = "Problem Set 2/initials.c"; sourceTree = "<group>"; };
+		17C3C9F01C81AF93003491ED /* caesar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = caesar.c; path = "Problem Set 2/caesar.c"; sourceTree = "<group>"; };
+		17C3C9F21C81BED8003491ED /* vigenere.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vigenere.c; path = "Problem Set 2/vigenere.c"; sourceTree = "<group>"; };
+		17CBDF4B1C3D5EA6003FC5D5 /* f2c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = f2c.c; sourceTree = "<group>"; };
+		17EDABD31C6F56D50067FD3C /* sizeof.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sizeof.c; sourceTree = "<group>"; };
 		17F01E531C327120006272F5 /* cs50 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs50; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F01E561C327120006272F5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		17F01E611C327286006272F5 /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hello.c; sourceTree = "<group>"; };
+		17F01E631C327422006272F5 /* hello-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "hello-1.c"; sourceTree = "<group>"; };
+		17F01E651C32797A006272F5 /* cs50.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cs50.c; sourceTree = "<group>"; };
+		17F01E661C32797A006272F5 /* cs50.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cs50.h; sourceTree = "<group>"; };
+		17F01E681C327A90006272F5 /* hello-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "hello-2.c"; sourceTree = "<group>"; };
+		17F01E6D1C32A702006272F5 /* adder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adder.c; sourceTree = "<group>"; };
+		17F01E6F1C32A79E006272F5 /* conditions-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "conditions-0.c"; sourceTree = "<group>"; };
+		17F01E721C32DB20006272F5 /* conditions-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "conditions-1.c"; sourceTree = "<group>"; };
+		17F01E741C32DC0B006272F5 /* nonswitch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nonswitch.c; sourceTree = "<group>"; };
+		17F01E761C33BACE006272F5 /* switch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = switch.c; sourceTree = "<group>"; };
+		17F01E781C34D6D0006272F5 /* positive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = positive.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +75,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		175CFCED1C6F96C70013C20B /* Problem Set 1 */ = {
+			isa = PBXGroup;
+			children = (
+				175CFCEE1C6F97290013C20B /* greedy.c */,
+				175CFCEF1C6F97290013C20B /* hello.c */,
+				175CFCF01C6F97290013C20B /* mario.c */,
+				175CFCF11C6F97290013C20B /* water.c */,
+			);
+			name = "Problem Set 1";
+			path = "/Users/angelo/Library/Mobile Documents/com~apple~CloudDocs/Programming/C/cs50/cs50/Problem Set 1";
+			sourceTree = "<absolute>";
+		};
+		17C3C9CA1C816BC4003491ED /* Week 2 */ = {
+			isa = PBXGroup;
+			children = (
+				17C3C9CB1C816D35003491ED /* functions-0.c */,
+				17C3C9CD1C816F60003491ED /* functions-1.c */,
+				17C3C9CF1C817094003491ED /* floats-0.c */,
+				17C3C9D11C817168003491ED /* floats-1.c */,
+				17C3C9D31C817C24003491ED /* floats-2.c */,
+				17C3C9D51C8180FE003491ED /* string-0.c */,
+				17C3C9D71C81817B003491ED /* string-1.c */,
+				17C3C9D91C8181D7003491ED /* string-2.c */,
+				17C3C9DB1C818279003491ED /* ascii-0.c */,
+				17C3C9DD1C818448003491ED /* ascii-1.c */,
+				17C3C9DF1C8184DD003491ED /* capitalize-0.c */,
+				17C3C9E11C8185C1003491ED /* capitalize-1.c */,
+				17C3C9E31C81865F003491ED /* capitalize-2.c */,
+				17C3C9E51C8189CD003491ED /* ages.c */,
+				17C3C9E71C818B49003491ED /* argv-0.c */,
+				17C3C9E91C818DF8003491ED /* argv-1.c */,
+				17C3C9EB1C819069003491ED /* argv-2.c */,
+			);
+			name = "Week 2";
+			sourceTree = "<group>";
+		};
+		17C3C9ED1C81AF5A003491ED /* Problem Set 2 */ = {
+			isa = PBXGroup;
+			children = (
+				17C3C9EE1C81AF79003491ED /* initials.c */,
+				17C3C9F01C81AF93003491ED /* caesar.c */,
+				17C3C9F21C81BED8003491ED /* vigenere.c */,
+			);
+			name = "Problem Set 2";
+			sourceTree = "<group>";
+		};
 		17F01E4A1C327120006272F5 = {
 			isa = PBXGroup;
 			children = (
@@ -57,10 +140,35 @@
 		17F01E551C327120006272F5 /* cs50 */ = {
 			isa = PBXGroup;
 			children = (
+				17F01E651C32797A006272F5 /* cs50.c */,
+				17F01E661C32797A006272F5 /* cs50.h */,
+				17F01E5D1C32714F006272F5 /* Week 1 */,
+				175CFCED1C6F96C70013C20B /* Problem Set 1 */,
+				17C3C9CA1C816BC4003491ED /* Week 2 */,
+				17C3C9ED1C81AF5A003491ED /* Problem Set 2 */,
 				17F01E561C327120006272F5 /* main.c */,
 			);
 			path = cs50;
 			sourceTree = "<group>";
+		};
+		17F01E5D1C32714F006272F5 /* Week 1 */ = {
+			isa = PBXGroup;
+			children = (
+				17F01E611C327286006272F5 /* hello.c */,
+				17F01E631C327422006272F5 /* hello-1.c */,
+				17F01E681C327A90006272F5 /* hello-2.c */,
+				17F01E6D1C32A702006272F5 /* adder.c */,
+				17F01E6F1C32A79E006272F5 /* conditions-0.c */,
+				17F01E721C32DB20006272F5 /* conditions-1.c */,
+				17F01E741C32DC0B006272F5 /* nonswitch.c */,
+				17F01E761C33BACE006272F5 /* switch.c */,
+				17F01E781C34D6D0006272F5 /* positive.c */,
+				17CBDF4B1C3D5EA6003FC5D5 /* f2c.c */,
+				17EDABD31C6F56D50067FD3C /* sizeof.c */,
+			);
+			name = "Week 1";
+			path = "/Users/angelo/Library/Mobile Documents/com~apple~CloudDocs/Programming/C/cs50/cs50/Week 1";
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -118,7 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17F01E571C327120006272F5 /* main.c in Sources */,
+				17F01E671C32797A006272F5 /* cs50.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +345,7 @@
 				17F01E5C1C327120006272F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

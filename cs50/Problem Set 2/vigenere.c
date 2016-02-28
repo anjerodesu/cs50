@@ -11,8 +11,32 @@
 #include <ctype.h>
 #include <string.h>
 
+/*!
+ *  @brief Checks the given string parameter if valid alpha.
+ *
+ *  @param s The string to validate
+ *
+ *  @return True of the string is valid alpha, false otherwise.
+ */
 bool isstring(string s);
+
+/*!
+ *  @brief Get the index of the given character from the Tabula Recta.
+ *
+ *  @param k The character to check.
+ *
+ *  @return The index of the character.
+ */
 int indexOf(char k);
+
+/*!
+ *  @brief Encrypt the given character.
+ *
+ *  @param c The character to encrypt.
+ *  @param k The key for encryption.
+ *
+ *  @return The encrypted character.
+ */
 char e(char c, int k);
 
 static string tr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -34,11 +58,11 @@ int main(int argc, string argv[]) {
 	}
 	
 	string k = argv[1];
-	int l = strlen(k);
+	int l = (int)strlen(k);
 	string s = GetString();
 	
 	int j = 0;
-	for (int i = 0, n = strlen(s); i < n; i++) {
+	for (int i = 0, n = (int)strlen(s); i < n; i++) {
 		if (j >= l) {
 			j = 0;
 		}
@@ -60,7 +84,7 @@ int main(int argc, string argv[]) {
 }
 
 bool isstring(string s) {
-	for (int i = 0, n = strlen(s); i < n; i++) {
+	for (int i = 0, n = (int)strlen(s); i < n; i++) {
 		if (!isalpha(s[i])) {
 			return false;
 		}
@@ -70,7 +94,7 @@ bool isstring(string s) {
 
 int indexOf(char k) {
 	int p = -1;
-	for (int i = 0, n = strlen(tr); i < n; i++) {
+	for (int i = 0, n = (int)strlen(tr); i < n; i++) {
 		if (tr[i] == toupper(k)) {
 			p = i;
 			break;

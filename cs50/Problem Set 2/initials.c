@@ -14,7 +14,7 @@
 int main(void) {
 	string s = GetString();
 	
-	for (int i = 0, n = strlen(s); i < n; i++) {
+	for (int i = 0, n = (int)strlen(s); i < n; i++) {
 		if (i == 0 || s[i - 1] == ' ') {
 			printf("%c", toupper(s[i]));
 		}

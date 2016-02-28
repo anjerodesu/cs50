@@ -10,6 +10,14 @@
 #include "cs50.h"
 #include <string.h>
 
+/*!
+ *  @brief Encrypt the given character.
+ *
+ *  @param c The character to encrypt.
+ *  @param k The key for encryption.
+ *
+ *  @return The encrypted character.
+ */
 char e(char c, int k);
 
 int main(int argc, string argv[]) {
@@ -21,7 +29,7 @@ int main(int argc, string argv[]) {
 	int k = atoi(argv[1]);
 	string s = GetString();
 	
-	for (int i = 0, n = strlen(s); i < n; i++) {
+	for (int i = 0, n = (int)strlen(s); i < n; i++) {
 		char c = e(s[i], k);
 		printf("%c", c);
 		

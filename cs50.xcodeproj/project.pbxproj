@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		178A21CF1C82846D0089AAFD /* credit.c in Sources */ = {isa = PBXBuildFile; fileRef = 178A21CE1C82846D0089AAFD /* credit.c */; };
 		17F01E671C32797A006272F5 /* cs50.c in Sources */ = {isa = PBXBuildFile; fileRef = 17F01E651C32797A006272F5 /* cs50.c */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,9 @@
 		175CFCEF1C6F97290013C20B /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hello.c; sourceTree = "<group>"; };
 		175CFCF01C6F97290013C20B /* mario.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mario.c; sourceTree = "<group>"; };
 		175CFCF11C6F97290013C20B /* water.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = water.c; sourceTree = "<group>"; };
+		178A21CA1C82823C0089AAFD /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello.c; path = "Hacker Set 1/hello.c"; sourceTree = "<group>"; };
+		178A21CC1C8283020089AAFD /* water.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = water.c; path = "Hacker Set 1/water.c"; sourceTree = "<group>"; };
+		178A21CE1C82846D0089AAFD /* credit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = credit.c; path = "Hacker Set 1/credit.c"; sourceTree = "<group>"; };
 		17C3C9CB1C816D35003491ED /* functions-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "functions-0.c"; path = "Week 2/functions-0.c"; sourceTree = "<group>"; };
 		17C3C9CD1C816F60003491ED /* functions-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "functions-1.c"; path = "Week 2/functions-1.c"; sourceTree = "<group>"; };
 		17C3C9CF1C817094003491ED /* floats-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "floats-0.c"; path = "Week 2/floats-0.c"; sourceTree = "<group>"; };
@@ -87,6 +91,16 @@
 			path = "/Users/angelo/Library/Mobile Documents/com~apple~CloudDocs/Programming/C/cs50/cs50/Problem Set 1";
 			sourceTree = "<absolute>";
 		};
+		178A21C91C82814E0089AAFD /* Hacker Set 1 */ = {
+			isa = PBXGroup;
+			children = (
+				178A21CA1C82823C0089AAFD /* hello.c */,
+				178A21CC1C8283020089AAFD /* water.c */,
+				178A21CE1C82846D0089AAFD /* credit.c */,
+			);
+			name = "Hacker Set 1";
+			sourceTree = "<group>";
+		};
 		17C3C9CA1C816BC4003491ED /* Week 2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +158,7 @@
 				17F01E661C32797A006272F5 /* cs50.h */,
 				17F01E5D1C32714F006272F5 /* Week 1 */,
 				175CFCED1C6F96C70013C20B /* Problem Set 1 */,
+				178A21C91C82814E0089AAFD /* Hacker Set 1 */,
 				17C3C9CA1C816BC4003491ED /* Week 2 */,
 				17C3C9ED1C81AF5A003491ED /* Problem Set 2 */,
 				17F01E561C327120006272F5 /* main.c */,
@@ -226,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178A21CF1C82846D0089AAFD /* credit.c in Sources */,
 				17F01E671C32797A006272F5 /* cs50.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

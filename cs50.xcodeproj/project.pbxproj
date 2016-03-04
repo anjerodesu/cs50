@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		178A21CF1C82846D0089AAFD /* credit.c in Sources */ = {isa = PBXBuildFile; fileRef = 178A21CE1C82846D0089AAFD /* credit.c */; };
 		17F01E671C32797A006272F5 /* cs50.c in Sources */ = {isa = PBXBuildFile; fileRef = 17F01E651C32797A006272F5 /* cs50.c */; };
+		2EAF0F7C1C8963AB002C3846 /* mario.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF0F7B1C8963AB002C3846 /* mario.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		17F01E651C32797A006272F5 /* cs50.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cs50.c; sourceTree = "<group>"; };
-		17F01E661C32797A006272F5 /* cs50.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cs50.h; sourceTree = "<group>"; };
 		175CFCEE1C6F97290013C20B /* greedy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = greedy.c; path = "Problem Set 1/greedy.c"; sourceTree = "<group>"; };
 		175CFCEF1C6F97290013C20B /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello.c; path = "Problem Set 1/hello.c"; sourceTree = "<group>"; };
 		175CFCF01C6F97290013C20B /* mario.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mario.c; path = "Problem Set 1/mario.c"; sourceTree = "<group>"; };
@@ -53,19 +51,22 @@
 		17C3C9EE1C81AF79003491ED /* initials.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = initials.c; path = "Problem Set 2/initials.c"; sourceTree = "<group>"; };
 		17C3C9F01C81AF93003491ED /* caesar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = caesar.c; path = "Problem Set 2/caesar.c"; sourceTree = "<group>"; };
 		17C3C9F21C81BED8003491ED /* vigenere.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vigenere.c; path = "Problem Set 2/vigenere.c"; sourceTree = "<group>"; };
+		17CBDF4B1C3D5EA6003FC5D5 /* f2c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = f2c.c; path = "Week 1/f2c.c"; sourceTree = "<group>"; };
+		17EDABD31C6F56D50067FD3C /* sizeof.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sizeof.c; path = "Week 1/sizeof.c"; sourceTree = "<group>"; };
 		17F01E531C327120006272F5 /* cs50 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs50; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F01E561C327120006272F5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		17F01E611C327286006272F5 /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello.c; path = "Week 1/hello.c"; sourceTree = "<group>"; };
-		17F01E631C327422006272F5 /* hello-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello-1.c; path = "Week 1/hello-1.c"; sourceTree = "<group>"; };
-		17F01E681C327A90006272F5 /* hello-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello-2.c; path = "Week 1/hello-2.c"; sourceTree = "<group>"; };
+		17F01E631C327422006272F5 /* hello-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "hello-1.c"; path = "Week 1/hello-1.c"; sourceTree = "<group>"; };
+		17F01E651C32797A006272F5 /* cs50.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cs50.c; sourceTree = "<group>"; };
+		17F01E661C32797A006272F5 /* cs50.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cs50.h; sourceTree = "<group>"; };
+		17F01E681C327A90006272F5 /* hello-2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "hello-2.c"; path = "Week 1/hello-2.c"; sourceTree = "<group>"; };
 		17F01E6D1C32A702006272F5 /* adder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adder.c; path = "Week 1/adder.c"; sourceTree = "<group>"; };
-		17F01E6F1C32A79E006272F5 /* conditions-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = conditions-0.c; path = "Week 1/conditions-0.c"; sourceTree = "<group>"; };
-		17F01E721C32DB20006272F5 /* conditions-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = conditions-1.c; path = "Week 1/conditions-1.c"; sourceTree = "<group>"; };
+		17F01E6F1C32A79E006272F5 /* conditions-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "conditions-0.c"; path = "Week 1/conditions-0.c"; sourceTree = "<group>"; };
+		17F01E721C32DB20006272F5 /* conditions-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "conditions-1.c"; path = "Week 1/conditions-1.c"; sourceTree = "<group>"; };
 		17F01E741C32DC0B006272F5 /* nonswitch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nonswitch.c; path = "Week 1/nonswitch.c"; sourceTree = "<group>"; };
 		17F01E761C33BACE006272F5 /* switch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = switch.c; path = "Week 1/switch.c"; sourceTree = "<group>"; };
 		17F01E781C34D6D0006272F5 /* positive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = positive.c; path = "Week 1/positive.c"; sourceTree = "<group>"; };
-		17CBDF4B1C3D5EA6003FC5D5 /* f2c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = f2c.c; path = "Week 1/f2c.c"; sourceTree = "<group>"; };
-		17EDABD31C6F56D50067FD3C /* sizeof.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sizeof.c; path = "Week 1/sizeof.c"; sourceTree = "<group>"; };
-		17F01E561C327120006272F5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2EAF0F7B1C8963AB002C3846 /* mario.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mario.c; path = "Hacker Set 1/mario.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,24 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17F01E5D1C32714F006272F5 /* Week 1 */ = {
-			isa = PBXGroup;
-			children = (
-				17F01E611C327286006272F5 /* hello.c */,
-				17F01E631C327422006272F5 /* hello-1.c */,
-				17F01E681C327A90006272F5 /* hello-2.c */,
-				17F01E6D1C32A702006272F5 /* adder.c */,
-				17F01E6F1C32A79E006272F5 /* conditions-0.c */,
-				17F01E721C32DB20006272F5 /* conditions-1.c */,
-				17F01E741C32DC0B006272F5 /* nonswitch.c */,
-				17F01E761C33BACE006272F5 /* switch.c */,
-				17F01E781C34D6D0006272F5 /* positive.c */,
-				17CBDF4B1C3D5EA6003FC5D5 /* f2c.c */,
-				17EDABD31C6F56D50067FD3C /* sizeof.c */,
-			);
-			name = "Week 1";
-			sourceTree = "<group>";
-		};
 		175CFCED1C6F96C70013C20B /* Problem Set 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +97,7 @@
 				178A21CA1C82823C0089AAFD /* hello.c */,
 				178A21CC1C8283020089AAFD /* water.c */,
 				178A21CE1C82846D0089AAFD /* credit.c */,
+				2EAF0F7B1C8963AB002C3846 /* mario.c */,
 			);
 			name = "Hacker Set 1";
 			sourceTree = "<group>";
@@ -183,6 +167,24 @@
 			path = cs50;
 			sourceTree = "<group>";
 		};
+		17F01E5D1C32714F006272F5 /* Week 1 */ = {
+			isa = PBXGroup;
+			children = (
+				17F01E611C327286006272F5 /* hello.c */,
+				17F01E631C327422006272F5 /* hello-1.c */,
+				17F01E681C327A90006272F5 /* hello-2.c */,
+				17F01E6D1C32A702006272F5 /* adder.c */,
+				17F01E6F1C32A79E006272F5 /* conditions-0.c */,
+				17F01E721C32DB20006272F5 /* conditions-1.c */,
+				17F01E741C32DC0B006272F5 /* nonswitch.c */,
+				17F01E761C33BACE006272F5 /* switch.c */,
+				17F01E781C34D6D0006272F5 /* positive.c */,
+				17CBDF4B1C3D5EA6003FC5D5 /* f2c.c */,
+				17EDABD31C6F56D50067FD3C /* sizeof.c */,
+			);
+			name = "Week 1";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				178A21CF1C82846D0089AAFD /* credit.c in Sources */,
+				2EAF0F7C1C8963AB002C3846 /* mario.c in Sources */,
 				17F01E671C32797A006272F5 /* cs50.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

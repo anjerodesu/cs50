@@ -1,8 +1,8 @@
 //
-//  capitalize-2.c
+//  initials.c
 //  cs50
 //
-//  Created by Angelo Villegas on 27/2/16.
+//  Created by Angelo Villegas on 4/3/16.
 //  Copyright © 2016 Angelo Villegas. All rights reserved.
 //
 
@@ -13,8 +13,11 @@
 
 int main(void) {
 	string s = GetString();
+	
 	for (int i = 0, n = (int)strlen(s); i < n; i++) {
-		printf("%c", toupper(s[i]));
+		if ((i == 0 || s[i - 1] == ' ') && s[i] != ' ') {
+			printf("%c", toupper(s[i]));
+		}
 	}
 	printf("\n");
 }

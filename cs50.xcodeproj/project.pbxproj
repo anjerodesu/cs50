@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17F01E671C32797A006272F5 /* cs50.c in Sources */ = {isa = PBXBuildFile; fileRef = 17F01E651C32797A006272F5 /* cs50.c */; };
-		2EAF0F7C1C8963AB002C3846 /* mario.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF0F7B1C8963AB002C3846 /* mario.c */; };
+		177DF1EA1C8BF7380046E7E8 /* crack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF0F821C896E8A002C3846 /* crack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +27,11 @@
 		175CFCEF1C6F97290013C20B /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello.c; path = "Problem Set 1/hello.c"; sourceTree = "<group>"; };
 		175CFCF01C6F97290013C20B /* mario.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mario.c; path = "Problem Set 1/mario.c"; sourceTree = "<group>"; };
 		175CFCF11C6F97290013C20B /* water.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = water.c; path = "Problem Set 1/water.c"; sourceTree = "<group>"; };
+		177DF1E71C8BF59E0046E7E8 /* crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crypt.c; path = "Hacker Set 2/crypt.c"; sourceTree = "<group>"; };
 		178A21CA1C82823C0089AAFD /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello.c; path = "Hacker Set 1/hello.c"; sourceTree = "<group>"; };
 		178A21CC1C8283020089AAFD /* water.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = water.c; path = "Hacker Set 1/water.c"; sourceTree = "<group>"; };
 		178A21CE1C82846D0089AAFD /* credit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = credit.c; path = "Hacker Set 1/credit.c"; sourceTree = "<group>"; };
+		178E5A3C1C8A80D900BD1865 /* passwords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = passwords.txt; path = "Hacker Set 2/passwords.txt"; sourceTree = "<group>"; };
 		17C3C9CB1C816D35003491ED /* functions-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "functions-0.c"; path = "Week 2/functions-0.c"; sourceTree = "<group>"; };
 		17C3C9CD1C816F60003491ED /* functions-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "functions-1.c"; path = "Week 2/functions-1.c"; sourceTree = "<group>"; };
 		17C3C9CF1C817094003491ED /* floats-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "floats-0.c"; path = "Week 2/floats-0.c"; sourceTree = "<group>"; };
@@ -67,6 +68,8 @@
 		17F01E761C33BACE006272F5 /* switch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = switch.c; path = "Week 1/switch.c"; sourceTree = "<group>"; };
 		17F01E781C34D6D0006272F5 /* positive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = positive.c; path = "Week 1/positive.c"; sourceTree = "<group>"; };
 		2EAF0F7B1C8963AB002C3846 /* mario.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mario.c; path = "Hacker Set 1/mario.c"; sourceTree = "<group>"; };
+		2EAF0F7E1C896898002C3846 /* initials.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = initials.c; path = "Hacker Set 2/initials.c"; sourceTree = "<group>"; };
+		2EAF0F821C896E8A002C3846 /* crack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crack.c; path = "Hacker Set 2/crack.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1716BACA1C8B2EC20008BB27 /* Week 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Week 3";
+			sourceTree = "<group>";
+		};
 		175CFCED1C6F96C70013C20B /* Problem Set 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +172,8 @@
 				178A21C91C82814E0089AAFD /* Hacker Set 1 */,
 				17C3C9CA1C816BC4003491ED /* Week 2 */,
 				17C3C9ED1C81AF5A003491ED /* Problem Set 2 */,
+				2EAF0F7D1C896871002C3846 /* Hacker Set 2 */,
+				1716BACA1C8B2EC20008BB27 /* Week 3 */,
 				17F01E561C327120006272F5 /* main.c */,
 			);
 			path = cs50;
@@ -183,6 +195,17 @@
 				17EDABD31C6F56D50067FD3C /* sizeof.c */,
 			);
 			name = "Week 1";
+			sourceTree = "<group>";
+		};
+		2EAF0F7D1C896871002C3846 /* Hacker Set 2 */ = {
+			isa = PBXGroup;
+			children = (
+				2EAF0F7E1C896898002C3846 /* initials.c */,
+				2EAF0F821C896E8A002C3846 /* crack.c */,
+				178E5A3C1C8A80D900BD1865 /* passwords.txt */,
+				177DF1E71C8BF59E0046E7E8 /* crypt.c */,
+			);
+			name = "Hacker Set 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EAF0F7C1C8963AB002C3846 /* mario.c in Sources */,
-				17F01E671C32797A006272F5 /* cs50.c in Sources */,
+				177DF1EA1C8BF7380046E7E8 /* crack.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

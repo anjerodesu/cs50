@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2EE50FA21CA2782900880540 /* bubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ED10A801CA000AC001F5F67 /* bubbleSort.c */; };
+		2EE50FA61CA2A0FB00880540 /* insertionSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EE50FA31CA29FEA00880540 /* insertionSort.c */; };
 		2EE6E5491CA0E58400307BA6 /* cs50.c in Sources */ = {isa = PBXBuildFile; fileRef = 17F01E651C32797A006272F5 /* cs50.c */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +32,6 @@
 		178A21CA1C82823C0089AAFD /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello.c; path = "Hacker Set 1/hello.c"; sourceTree = "<group>"; };
 		178A21CC1C8283020089AAFD /* water.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = water.c; path = "Hacker Set 1/water.c"; sourceTree = "<group>"; };
 		178A21CE1C82846D0089AAFD /* credit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = credit.c; path = "Hacker Set 1/credit.c"; sourceTree = "<group>"; };
-		178E5A3C1C8A80D900BD1865 /* passwords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = passwords.txt; path = "Hacker Set 2/passwords.txt"; sourceTree = "<group>"; };
 		17C3C9CB1C816D35003491ED /* functions-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "functions-0.c"; path = "Week 2/functions-0.c"; sourceTree = "<group>"; };
 		17C3C9CD1C816F60003491ED /* functions-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "functions-1.c"; path = "Week 2/functions-1.c"; sourceTree = "<group>"; };
 		17C3C9CF1C817094003491ED /* floats-0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "floats-0.c"; path = "Week 2/floats-0.c"; sourceTree = "<group>"; };
@@ -72,6 +71,7 @@
 		2EAF0F7E1C896898002C3846 /* initials.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = initials.c; path = "Hacker Set 2/initials.c"; sourceTree = "<group>"; };
 		2EAF0F821C896E8A002C3846 /* crack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crack.c; path = "Hacker Set 2/crack.c"; sourceTree = "<group>"; };
 		2ED10A801CA000AC001F5F67 /* bubbleSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bubbleSort.c; path = "Week 3/bubbleSort.c"; sourceTree = "<group>"; };
+		2EE50FA31CA29FEA00880540 /* insertionSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = insertionSort.c; path = "Week 3/insertionSort.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				2ED10A801CA000AC001F5F67 /* bubbleSort.c */,
+				2EE50FA31CA29FEA00880540 /* insertionSort.c */,
 			);
 			name = "Week 3";
 			sourceTree = "<group>";
@@ -205,7 +206,6 @@
 			children = (
 				2EAF0F7E1C896898002C3846 /* initials.c */,
 				2EAF0F821C896E8A002C3846 /* crack.c */,
-				178E5A3C1C8A80D900BD1865 /* passwords.txt */,
 				177DF1E71C8BF59E0046E7E8 /* crypt.c */,
 			);
 			name = "Hacker Set 2";
@@ -268,7 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE6E5491CA0E58400307BA6 /* cs50.c in Sources */,
-				2EE50FA21CA2782900880540 /* bubbleSort.c in Sources */,
+				2EE50FA61CA2A0FB00880540 /* insertionSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

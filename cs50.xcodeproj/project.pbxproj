@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		177DF1EA1C8BF7380046E7E8 /* crack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF0F821C896E8A002C3846 /* crack.c */; };
+		2EE50FA21CA2782900880540 /* bubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ED10A801CA000AC001F5F67 /* bubbleSort.c */; };
+		2EE6E5491CA0E58400307BA6 /* cs50.c in Sources */ = {isa = PBXBuildFile; fileRef = 17F01E651C32797A006272F5 /* cs50.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,7 @@
 		2EAF0F7B1C8963AB002C3846 /* mario.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mario.c; path = "Hacker Set 1/mario.c"; sourceTree = "<group>"; };
 		2EAF0F7E1C896898002C3846 /* initials.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = initials.c; path = "Hacker Set 2/initials.c"; sourceTree = "<group>"; };
 		2EAF0F821C896E8A002C3846 /* crack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crack.c; path = "Hacker Set 2/crack.c"; sourceTree = "<group>"; };
+		2ED10A801CA000AC001F5F67 /* bubbleSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bubbleSort.c; path = "Week 3/bubbleSort.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		1716BACA1C8B2EC20008BB27 /* Week 3 */ = {
 			isa = PBXGroup;
 			children = (
+				2ED10A801CA000AC001F5F67 /* bubbleSort.c */,
 			);
 			name = "Week 3";
 			sourceTree = "<group>";
@@ -264,7 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				177DF1EA1C8BF7380046E7E8 /* crack.c in Sources */,
+				2EE6E5491CA0E58400307BA6 /* cs50.c in Sources */,
+				2EE50FA21CA2782900880540 /* bubbleSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +357,7 @@
 		17F01E5B1C327120006272F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -360,6 +365,7 @@
 		17F01E5C1C327120006272F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
